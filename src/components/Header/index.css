@@ -1,0 +1,142 @@
+.header_component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+    border: 0px solid rgb(49, 183, 245);
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #165315;
+    height: 5vh;
+    color: white;
+    width: 100%;
+    font-size: 14px;
+}
+
+.box-1{
+    flex-grow: 2;
+    text-align: right;
+}
+
+.box-2{
+    flex-grow: 1;
+    text-align: right;
+    margin: 10px;
+    padding-right: 35px;
+}
+
+.logo-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border: black 0px solid;
+    color: #0F4811;
+    margin-left: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.logo{
+    margin: 0px;
+    height: 60px;
+    width: 60px;
+    border: 0px solid green;
+}
+
+.logo-title{
+    color: #0F4811;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.mid-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    padding-left: 0px;
+    border: red 0px solid;
+}
+
+li{
+    list-style-type: none;
+    margin-right: 33px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.selected-item{
+    color: #F3A939;
+    font-weight: 600;
+    border-bottom: #F3A939 solid 2px;
+}
+
+.tools{
+    width: 75px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.services{
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.icons-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin-left: 10px;
+    
+}
+
+.icons{
+    width: 25px;
+    height: 24px;
+}
+
+h6{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.search-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: #0F4811 0px solid;
+    padding-bottom: 0px;
+}
+
+.search-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #0F4811 1px solid;
+    width: 30%;
+    
+}
+
+.search{
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+}

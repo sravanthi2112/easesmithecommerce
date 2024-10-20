@@ -1,0 +1,33 @@
+.thankyou-page{
+    background-color: rgb(233, 252, 226);
+    height: 70vh;
+    border: 0px solid green;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.active-plant {
+    color: #165315;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+
+.thankyou-page button{
+    background-color: #144D14;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    width: 175px;
+    height: 43px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,70 @@
+
+
+.modal{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 461px;
+}
+
+.close-btn-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+    border: #0F4811 0px solid;
+}
+
+.close-btn{
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header {
+    color: #0F4811;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.title {
+    font-size: 24px;
+    color: #165315;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.plant-image {
+    width: 97px;
+    height: 98px;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 16px;
+    color: #165315;
+    font-weight: 400;
+    margin-bottom: 60px ;
+}
+
+.continue-button {
+    background-color: #2e7d32;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 307px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.continue-button:hover {
+    background-color: #1b5e20; /* Darker green on hover */
+}

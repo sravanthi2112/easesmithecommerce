@@ -1,0 +1,209 @@
+.homepage-bg-contaier{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 45px;
+}
+
+.products_list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: yellowgreen 0px solid;
+    padding: 0px;
+    width: 100%;
+}
+
+.productsnum{
+    color: #6A6A6A;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.product_item{
+    margin: 10px;
+    border : 0px solid #000000;
+    width: 265px;
+    list-style-type: none;
+    height: 540px;
+    margin-bottom: 10px;
+}
+
+.img-conatiner{
+    border: gray 1px solid;
+}
+
+.product_image{
+    width: 250px;
+    height: 240px;
+    margin: 5px;
+    border: red 0px solid;
+}
+
+.view-product{
+    background-color: #165315;
+    height: 38px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.product_title{
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    border: blue dotted 0px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.category{
+    font-size: 16px;
+    font-weight: 400;
+    color: #A5A1A1;
+    margin: 0px;
+    border: blue dotted 0px;
+}
+
+.price_rating{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: black 0px dotted;
+    padding: 0px;
+    margin-top: 3px;
+
+}
+
+.rating-img{
+    width: 87px;
+    height: 19px;
+    margin-right: 4px;
+    margin: 0px;
+}
+
+.rating{
+    font-size: 16px;
+    color: #A5A1A1;
+    margin: 0px;
+    margin-left: 4px;
+}
+
+.price{
+    font-size: 16px;
+    font-weight: 400;
+    color: #A5A1A1;
+    text-decoration: line-through;
+    margin: 0px;
+}
+
+.dealprice{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 8px;
+}
+
+
+h5{
+    border: black 1px double;
+    margin: 0px;
+}
+
+.filters-items-sec{
+    display: flex;
+}
+
+.items-container{
+    padding-left: 35px;
+    border: violet 0px solid;
+}
+
+.sort-container{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.sort{
+    background-color: #165315;
+    width:  139px;
+    height: 36px;
+    padding: 6px 7px 6px 7px;
+    gap: 15px;
+    opacity: 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    margin-left: 10px;
+}
+
+.add-to-cart{
+    background-color: #165315;
+    height: 38px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-right: 3px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buy-on-rent{
+    background-color: white;
+    height: 38px;
+    color: #165315;
+    text-align: center;
+    width: 49%;
+    border: 1px solid #165315;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.like-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.likebutton {
+    background-color: transparent;
+    border : none;
+    font-size: 25px;
+    margin-top: 6px;
+    margin-right: 3px;
+}
+
+.img-conatiner button :hover{
+    cursor: pointer;
+}
+
+.liked {
+    color: rgb(235, 116, 116);
+}
+
+.view-more-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.view-more{
+    background-color: #144D14;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    width: 175px;
+    height: 43px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

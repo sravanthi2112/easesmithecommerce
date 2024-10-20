@@ -1,0 +1,72 @@
+/* FilterSection.css */
+.filter-section {
+    background-color: #F0FFE5;
+    padding: 20px;
+    width: 250px;
+    color: #6E6E6E;
+    border-radius: 10px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+  
+.filter-title {
+    font-weight:400;
+    font-size :16px;
+    margin-bottom: 15px;
+    color: #6E6E6E;
+}
+
+.category-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #6E6E6E;
+    cursor: pointer;
+}
+  
+.filter-options {
+    list-style: none;
+    padding-left: 10px;
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E6E6E;
+}
+  
+.filter-options li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E6E6E;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+  
+.filter-options input[type='checkbox'] {
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E6E6E;
+}
+
+.category-title:hover {
+    color: #3a7733;
+}
+
+.plus{
+    background-color: transparent;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+}
+  
+.plus:hover{
+    cursor:pointer;
+}
+
+hr{
+    margin: 0px;
+}
