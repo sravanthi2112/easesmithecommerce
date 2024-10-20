@@ -6,7 +6,7 @@ https://github.com/sravanthi2112/easesmithecommerce.git
 
 ### Project Published Link
 
-https://sravanthikannapllyeasesmithecommerce.vercel.app/
+https://sravanthikannapallyeasesmithecommerce.vercel.app/
 
 
 
