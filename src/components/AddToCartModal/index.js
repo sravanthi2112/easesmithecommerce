@@ -11,7 +11,7 @@ const AddToCartModal = () => {
         <Popup
             modal
             trigger={
-                <button className="add-to-cart">- Add to Cart +</button>
+                <button className="add-to-cart"><p>-</p> <p>Add to Cart</p> <p>+</p></button>
             }
         >
         {close => (
@@ -35,14 +35,11 @@ const AddToCartModal = () => {
                        Thank you for choosing Chaperone services.
                        <br /> We will soon get in touch with you!
                    </p>
-                   <button className="continue-button" >CONTINUE SHOPPING</button>
+                   <button className="continue-button" onClick={() => close()}>CONTINUE SHOPPING</button>
                </div>
         )}                  
         </Popup>
-                                        
-        <button className="buy-on-rent">Buy on Rent</button>
-
-
+        
         </>
 
     );

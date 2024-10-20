@@ -34,7 +34,6 @@ const Footer = () => {
 
         <div className="footer-section services">
           <h3 className="aboutus">OUR SERVICES</h3>
-          <h3 className="chaperone-head">CHAPERONE</h3>
           <ul>
             <li key='1'>Book Maali</li>
             <li key='2'>Plant Day Care</li>
